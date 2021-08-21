@@ -4,7 +4,7 @@ Grails DB-Migration plugin does not work with Grails 5.0.0.rc1 due to dependency
 
 
 ```
-grails dbm-generate-changelog changelog.groovy       ✔
+grails dbm-generate-changelog changelog.groovy
 ...
 Exception in thread "main" java.lang.NoClassDefFoundError: org/hibernate/service/ServiceRegistry
         at org.grails.plugins.databasemigration.command.DbmFutureRollbackSqlCommand.<clinit>(DbmFutureRollbackSqlCommand.groovy)
